@@ -8,5 +8,5 @@ The feature extraction code (`Feature_Extraction`) processes ECG signals for eff
 
 ## AF Classification Model
 
-The AF classification model (`Model`) is implemented using TensorFlow/Keras. The model utilizes a Convolutional Neural Network (CNN) with a Transformer-based architecture. The convolutional layers extract spatial features, while the Transformer blocks capture long-range dependencies. The model is trained on preprocessed ECG data to classify signals into AF categories.
+The AF classification model (`CTC`) is implemented using TensorFlow/Keras. The model utilizes a Convolutional Neural Network (CNN) with a Transformer-based architecture. The convolutional layers extract spatial features, while the Transformer blocks capture long-range dependencies. The model is trained on preprocessed ECG data to classify signals into AF categories.
 
